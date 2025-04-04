@@ -168,3 +168,212 @@ nav ul li a:hover {
 .social-links img:hover {
     transform: scale(1.1); /* Slight zoom effect on hover */
 }
+.thank-you {
+    text-align: center;
+    margin-top: 10%;
+    color: #49b841;
+    font-family: 'Poppins', sans-serif;
+}
+
+.thank-you h1 {
+    color: #a5c3a9;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.thank-you p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.thank-you a {
+    text-decoration: none;
+    color: white;
+    background: #003366;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.thank-you a:hover {
+    background: #c0afb3;
+}
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #073f0f;
+    color: black;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #245b3e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #5a498e;
+}
+
+/* Projects Section */
+#projects {
+    padding: 2rem;
+    background: linear-gradient(90deg, #3414b4, #064a21);
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(15, 15, 15, 0.1);
+    text-align: center;
+}
+
+#projects h2 {
+    color: #dbd9d9;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+#projects p {
+    text-align: left;
+    margin: 1rem 0;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* Project Links */
+#projects p a {
+    color: #8f959c;
+    text-decoration: underline;
+}
+
+#projects p a:hover {
+    color: #9ba79f;
+    text-decoration: none;
+}
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #073f0f;
+    color: rgb(77, 167, 128);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #d6e0db;
+    background: linear-gradient green;
+    padding: 20px 50px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #003366;
+}
+
+/* Education Section */
+#education {
+    padding: 2rem;
+    background: linear-gradient(90deg, #3414b4, #064a21);
+    margin: 2rem auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#education h2 {
+    color: #f0e9eb;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+#education p {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #f9f5f5;
+}
+
+#education a {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+/* Return to Homepage Link */
+#education + a {
+    display: small block;
+    text-align: left;
+    margin-top: 1rem;
+    background-color: #245b3e;
+    font-weight: bold;
+}
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #3414b4, #064a21);
+    color: #f6eded;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    background: linear-gradient(90deg, #3414b4, #064a21);
+    background-color: #800020;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #003366;
+}
+
+/* About Me Section */
+#services {
+    padding: 3rem;
+    background: linear-gradient(90deg, #3414b4, #064a21);
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#services h2 {
+    color: #dfd7d9;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.service {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-top: 1rem;
+    background: linear-gradient(90deg, #3414b4, #064a21);
+    padding: 1.5rem;
+    border: 1px solid #f9f1f1;
+    border-radius: 5px;
+}
+
+.service p {
+    margin: 0;
+    color: #eedede;
+}
+
+/* Return to Homepage Link */
+#services + a {
+    display: small block;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+}
